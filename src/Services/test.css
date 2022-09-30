@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+} 
+@media only screen and (max-width: 900px) {
+  img {
+    width: 100%; 
+  }
+}
+@media only screen and (max-width: 900px) {
+  .grid {
+    grid-template-columns: auto;
+  }
+  .item2 {
+    margin-top: 0 !important;
+  } 
+  .item4 {
+    margin-top: 0 !important;
+  }
+}
